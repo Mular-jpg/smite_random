@@ -24,8 +24,18 @@
       <div class="col-2"></div>
       
       <div class="col-8 mb-4">
-        <button class="god-button" id="random_god">Random</button>
-        <button class="god-button" onclick="loadGods()">Reset</button>
+        <button class="god-button m-1" id="random_god">Random</button>
+        <span class="god-filter-container">
+          <button class="god-button m-1" id="filter-button">Filters</button>
+          <span class="god-filter" id="filter-box">
+            <ul class="god-filter-list">
+              <li>
+                <div class="wrapped-header"><span>ROLE</span></div>
+              </li>
+            </ul>
+          </span>
+        </span>
+        <button class="god-button m-1" onclick="loadGods()">show all</button>
       </div>
 
       <div class="col-2"></div>
